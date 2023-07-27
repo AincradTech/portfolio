@@ -1,0 +1,112 @@
+body {
+  font-family: sans-serif;
+  background-color: #233554;
+  color: #ccd6f6;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-right: 0px;
+}
+
+p {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #8892b0;
+}
+
+a {
+  text-decoration: none;
+  color: #ccd6f6;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-size: 12px;
+  margin-right: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+a:hover {
+  color: #64ffda;
+}
+
+.number {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #64ffda;
+}
+
+h1 {
+  font-size: 44px;
+  margin-block: 0px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 44px;
+  color: #8892b0;
+  margin-block: 0px;
+}
+
+.pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+.linkedin {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 13px;
+}
+
+.social {
+  position: absolute;
+  top: 200px;
+  left: 26px
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.row {
+  display: flex;
+}
+
+.rowcenter {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  height: 1px;
+  background-color: #8892b0;
+  width: calc(100% - 400px);
+  margin-left: 40px;
+}
+
+.section {
+  margin-top: 40px;
+}
+
+.pmain {
+  font-family: sans-serif;
+}
+
+.main {
+  margin-top: 100px;
+  margin-bottom: 200px;
+  margin: 80px;
+}
